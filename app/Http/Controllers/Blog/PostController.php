@@ -1,18 +1,20 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Blog;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class RestTestController extends Controller
+class PostController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(){
-        return view('welcome');
+    public function index()
+    {
+        //
     }
 
     /**
@@ -20,8 +22,9 @@ class RestTestController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(){
-
+    public function create()
+    {
+        //
     }
 
     /**
@@ -30,8 +33,9 @@ class RestTestController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request){
-
+    public function store(Request $request)
+    {
+        //
     }
 
     /**
@@ -40,7 +44,8 @@ class RestTestController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id){
+    public function show($id)
+    {
         //
     }
 
@@ -50,7 +55,8 @@ class RestTestController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id){
+    public function edit($id)
+    {
         //
     }
 
@@ -61,7 +67,8 @@ class RestTestController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id){
+    public function update(Request $request, $id)
+    {
         //
     }
 
@@ -71,7 +78,8 @@ class RestTestController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id){
+    public function destroy($id)
+    {
         //
     }
 }
